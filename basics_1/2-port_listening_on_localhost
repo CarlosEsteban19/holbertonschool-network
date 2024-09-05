@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script to listen port 98
+
+PORT=98
+
+# listen specified port
+echo "Listening on port $PORT..."
+nc -l -p $PORT
